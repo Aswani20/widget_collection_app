@@ -1,5 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
+import 'package:template_app/animated_drawer/zoom_drawer_screen.dart';
 import 'package:template_app/collapsible_sidebar/sidebar_screen.dart';
 import 'package:template_app/core/extensions/project_extensions.dart';
 import 'package:template_app/home_screen.dart';
@@ -16,6 +17,8 @@ abstract class Routes {
         return MaterialPageRoute(builder: (_) => HomeScreen());
       case AppRoutes.sideBarScreen:
         return MaterialPageRoute(builder: (_) => SidebarScreen());
+      case AppRoutes.zoomDrawerScreen:
+        return MaterialPageRoute(builder: (_) => ZoomDrawerScreen());
       default:
         return MaterialPageRoute(builder: (context) => NotFoundScreen());
     }

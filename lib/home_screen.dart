@@ -32,6 +32,16 @@ class HomeScreen extends StatelessWidget {
               ),
               child: Text("Go To Sidebar Screen"),
             ),
+            16.heightBox,
+            ElevatedButton(
+              onPressed: () =>
+                  Navigator.pushNamed(context, AppRoutes.zoomDrawerScreen),
+              style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blue[400],
+                  foregroundColor: Colors.white
+              ),
+              child: Text("Go To Animated Drawer"),
+            ),
           ],
         ),
       ),

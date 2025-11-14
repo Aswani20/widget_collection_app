@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:template_app/collapsible_sidebar/sidebar.dart';
+import 'package:template_app/flutter_toast/flutter_toast.dart';
 import '../core/route/app_routes.dart';
-import '../flutter_toasr/flutter_toast.dart';
 
 class SidebarScreen extends StatelessWidget {
   const SidebarScreen({super.key});

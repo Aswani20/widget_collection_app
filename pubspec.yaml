@@ -13,6 +13,7 @@ dependencies:
   animated_text_kit: ^4.2.3
   collapsible_sidebar: ^2.0.7
   fluttertoast: ^8.2.12
+  flutter_zoom_drawer: ^3.2.0
 
 dev_dependencies:
   flutter_test:
