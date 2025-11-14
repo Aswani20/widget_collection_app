@@ -89,7 +89,7 @@ Distributed under the MIT License. See LICENSE for more information.
 
 This project is a collection of widgets inspired by and adapted from the excellent work done by **[Salman Ahmad]**. We extend our sincere thanks for their original repository which served as a valuable foundation.
 
-* [@Salman Ahmad](**[https://github.com/DevSalmanCodes]**)
+* [@DevSalmanCodes](**[https://github.com/DevSalmanCodes]**)
 
 
 
